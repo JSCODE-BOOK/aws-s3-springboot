@@ -1,4 +1,4 @@
-package com.example.rdsspringbootsample;
+package com.example.awss3springboot;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

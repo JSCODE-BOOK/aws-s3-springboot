@@ -1,4 +1,4 @@
-package com.example.rdsspringbootsample;
+package com.example.awss3springboot;
 
 import io.awspring.cloud.s3.ObjectMetadata;
 import io.awspring.cloud.s3.S3Operations;
