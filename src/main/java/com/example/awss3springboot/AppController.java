@@ -58,7 +58,6 @@ public class AppController {
       S3Resource s3Resource = s3Operations.upload(bucketName, filename, inputStream,
           ObjectMetadata.builder().contentType(imageFile.getContentType()).build());
       imageUrl = s3Resource.getURL().toString();
-      System.out.println(imageUrl);
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
